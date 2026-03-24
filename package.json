@@ -1,0 +1,20 @@
+{
+  "name": "msrp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "discord.js": "14.16.4",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "*"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
