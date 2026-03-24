@@ -177,7 +177,7 @@ async function sendCommunityWelcome(guild, member) {
 
 client.once('ready', async () => {
   console.log(`Logged in as ${client.user.tag}!`);
-  client.user.setActivity('ILSRP Systems', { type: 'PLAYING' });
+  client.user.setActivity('Illinois State | .gg/EWXT6P9cfw', { type: 'WATCHING' });
 
   // Deploy slash
   const sayCommand = new SlashCommandBuilder()
